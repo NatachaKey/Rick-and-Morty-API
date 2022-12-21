@@ -87,8 +87,7 @@ export default App;
 //     const response= await fetch(url);
 //     const data= await response.json();
 //     this.setState({person: data.results[0]})
-//     console.log(data.results
-//       )
+//     console.log(data.results)
 //   }
 //   render(){
 //     return(
