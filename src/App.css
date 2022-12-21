@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:  "Helvetica Neue", sans-serif;
+  color: rgb(90, 18, 18);
+  background: rgb(164, 173, 243);
+ 
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+p{
+  font-size: 15px;
+  font-style: italic;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.Logo {
+  align-self: center;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+ 
+}
+span{
+  color: #1f6931;
+}
+ 
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-6 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  flex-basis: 50%;
+}
+
+@media all and (min-width: 600px) {
+  .col-md-3 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    flex-basis: 25%;
+  }
+}
+
+button {
+  background-color: #533eaf;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px ;
+  text-decoration: none;
+ }
